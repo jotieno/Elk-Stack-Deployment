@@ -95,6 +95,9 @@ These Beats allow us to collect the following information from each machine:
 - Filebeat: monitors Elastic search log files, collects log events and forwards them to the monitoring cluster e.g system log events.
 - Metricbeat: collects metric data from servers such as CPU usage, memory usage etc.
 
+Filebeat successful installation
+![FileBeat](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/FileBeat-Screenshot.png)
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
