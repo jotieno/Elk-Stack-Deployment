@@ -106,6 +106,6 @@ SSH into the control node and follow the steps below:
 - sudo docker container list -a - to list the containers that have been created
 - sudo docker start [nameofcontainer] - To start a container
 - sudo docker attach [nameofcontainer] - To connect to the container
-- nano filebeat-playbook.yml - To create/edit/update the YAML file
+- nano [nameofcontainer] - To create/edit/update the YAML file
 - ansible-playbook filebeat-playbook.yml - To run the playbook on the VMs
  
