@@ -6,9 +6,8 @@ The files in this repository were used to configure the network depicted below.
 
 ![Network Diagram](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/Project1-NetworkDiagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the pentest.yml file (dvwa) may be used to install only certain pieces of it, such as DVWA.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-dvwa.yml file may be used to install only certain pieces of it, such as DVWA.
 
- Filebeat-Playbook.yml 
 
 This document contains the following details:
 - Description of the Topology
@@ -27,7 +26,7 @@ Load balancing ensures that the application will be highly available, in additio
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system resources.
 Filebeat monitors the log files and collects the log events. 
-Metricbeat collects machine metrics, e.g uptime.
+Metricbeat collects machine metrics, e.g uptime, CPU memory metrics etc.
 
 The configuration details of each machine may be found below.
 
