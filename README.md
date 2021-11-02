@@ -99,7 +99,7 @@ SSH into the control node and follow the steps below:
 - Update the host file to include the IP addresses of the web servers and the IP address of the ELK server as well.
 - Run the playbook, and navigate to http://[elkserverpublicip]:5601/app/kibana to check that the installation worked as expected.
 
-Diagrams/ElkInstallation-evidence.png
+![ELK Evidence](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/ELK-Evidence-Kibana.png)
 
 
 ### Other useful commands
