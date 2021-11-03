@@ -80,7 +80,7 @@ The tasks to install filebeat are similar to the tasks to install metricbeat as 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK Docker](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/ELD-Docker-ps-Output.png)
+![ELK Docker](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/ELK-Docker-ps-Output.png)
 
 
 ### Target Machines & Beats
