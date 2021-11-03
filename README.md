@@ -76,6 +76,8 @@ The install metricbeat-playbook implements the following tasks:
 - Start metricbeat
 - Enable metricbeat on boot
 
+The tasks to install filebeat are similar to the tasks to install metricbeat as outlined above apart from some slight differences in the config files at set up.
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![ELK Docker](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/ELD-Docker-ps-Output.png)
@@ -95,7 +97,7 @@ These Beats allow us to collect the following information from each machine:
 - Filebeat: monitors Elastic search log files, collects log events and forwards them to the monitoring cluster e.g system log events.
 - Metricbeat: collects metric data from servers such as CPU usage, memory usage etc.
 
-Filebeat successful installation
+Filebeat successful installation!
 ![FileBeat](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/FileBeat-Screenshot.png)
 
 ### Using the Playbook
