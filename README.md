@@ -82,7 +82,6 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![ELK Docker](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/ELD-Docker-ps-Output.png)
 
-The tasks to install filebeat are similar to the tasks outlined above apart form some slight differences in the config files at set up.
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
