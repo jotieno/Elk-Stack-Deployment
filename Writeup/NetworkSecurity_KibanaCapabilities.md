@@ -26,12 +26,12 @@ SSH Barrage: i performed ssh directly to one of the VMs to generate a high amoun
 
 There were 3 initial denial attempts but 1 was successful as shown in the screenshot below. Filebeat allows for a lightweight way to forward and centralize logs and files. The GUI and infographic view tracks down curious behavior across aggregated logs.
 
-File beat Diagram-Syslog
+![Filebeat-Syslog](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/FileBeat-Syslog.png)
 
 
-It also provides further analysis opportunities to check items like the sudo commands used, ssh login details among others.
+It also provides further analysis opportunities to check other items like the sudo commands used, ssh login details among others.
 
-FileBeat diagram 2-sudo commands
+![FileBeat-sudo commands](https://github.com/jotieno/Elk-Stack-Deployment/blob/main/Images/FileBeat-SudoCommands.png)
 
 These among many other Filebeat functionalities can be very helpful to admins while monitoring the logs in their network. In addition, Metricbeat is another great monitoring tool that collects metric data from servers such as CPU usage, memory usage. This can be very handy specially to track DOS attacks.
 
