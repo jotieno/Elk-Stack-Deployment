@@ -52,9 +52,9 @@ A summary of the access policies in place can be found in the table below.
 | Name       | Publicly Accessible | Allowed IP Addresses |
 |------------|---------------------|----------------------|
 | Jump Box   | Yes                 | 40.112.62.242        |
-| Elk Server | No                  | 10.1.0.4             |
-| Web-1      | No                  | 10.0.0.7             |
-| Web-2      | No                  | 10.0.0.8             |
+| Elk Server | No                  | 40.122.193.5         |
+| Web-1      | No                  | -                    |
+| Web-2      | No                  | -                    |
 
 ### Elk Configuration
 
